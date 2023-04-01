@@ -88,7 +88,7 @@ function App() {
       {/* Metamask status */}
       <div className="text-center">
         <h1>
-          {getNetwork !== 0x15
+          {getNetwork !== 0x3e5
             ? "Please make sure you're on the 5ire testnet network"
             : mmStatus}
         </h1>
